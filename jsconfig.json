@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"baseUrl": "./",
+		"paths": {
+			"common": ["./src/components/common"],
+			"ui": ["./src/components/ui"],
+			"home": ["./src/components/pages/home"],
+			"login": ["./src/components/pages/login"],
+			"@": ["./src"],
+			"@/*": ["./src/*"],
+
+		}
+	},
+	"exclude": [
+		"node_modules"
+	]
+	// "include": ["./ydk/"]
+
+}
